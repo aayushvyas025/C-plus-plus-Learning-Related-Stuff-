@@ -46,13 +46,21 @@ int main()
     */
 
     // There are other datatype also like string datatype , getline datatype, boolean etc. 
-    string myString; 
-    cout << "Enter any String or Character " << endl; 
+    /* string myString; 
+    cout << "Enter any String or Character " << endl; */ 
     // cin >> myString; 
     // The problem with myString variable when we give wide spaces it not taking as input just trim those part after wide spaces 
     //? There was inbuilt method which was getline method which was used to read input line of string in which wide spaces are also included... 
-    getline(cin , myString); 
-    cout << myString << '\n'; 
+    /* getline(cin , myString); 
+    cout << myString << '\n';  */
+
+    // Char Datatype in C++ 
+    // When we needed character than we are using character datatype in c++ 
+    // There was rule always used single qoute with characters 
+    char firstCharacter; 
+    cout << "Enter Character here" << '\n'; 
+    cin >> firstCharacter; 
+    cout << firstCharacter << endl; 
 
 
     return 0;
