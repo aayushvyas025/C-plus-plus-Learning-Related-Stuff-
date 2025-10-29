@@ -16,8 +16,8 @@ int main() {
     int userMark; 
     cout << "Enter your Mark" << '\n';
     cin >> userMark; 
-    
-    if(userMark < 25) {
+    //* Approach 1st 
+   /* if(userMark < 25) {
         cout << "F Grade" << '\n'; 
     }else if(userMark >= 25 && userMark <=44 ) {
         cout << "E Grade" << "\n"; 
@@ -29,8 +29,24 @@ int main() {
         cout << "B Grade" << "\n";
     }else if(userMark >= 80 && userMark <=100) {
         cout <<"A Grade" << "\n"; 
-    }
+    } 
+ */ 
+   //* 2nd Approach 
+   if(userMark < 25) {
+    cout << "Grade F" << '\n';
+   }else if(userMark <= 44) {
+    cout << "Grade E" << '\n';
+   }else if(userMark <=49) {
+    cout << "Grade D" << '\n';
+   }else if(userMark <= 59) {
+    cout << "Grade C" << '\n';
+   }else if(userMark <= 79) {
+    cout << "Grade B" << '\n';
+   }else if(userMark <= 100) {
+    cout << "Grade A" << '\n';
+   }
+ 
 
-    return 0; 
+     return 0; 
 
 }
