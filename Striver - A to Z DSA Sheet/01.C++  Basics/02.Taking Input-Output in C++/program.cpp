@@ -1,4 +1,13 @@
-#include<iostream> 
+// #include <iostream>
+// #include <vector>
+// #include <algorithm>
+// #include <string>
+// #include <map>
+// #include <set>
+// #include <cmath>
+// In C++ there was so many libraries so every time we have to import it like this instead of it we used one import statement  
+#include <bits/stdc++.h>
+// So individual importing c++ header file instead of it we can import signle header file which was <bits/stdc++.h> which include all the other headers files in it of C++ Standard but this <bits/stdc++.h> was not part of standard implementation of c++  
 
 using namespace std; 
 
