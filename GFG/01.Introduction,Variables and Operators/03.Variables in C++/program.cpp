@@ -19,4 +19,7 @@ int main() {
     firstNumber = 10; 
     std::cout << firstNumber << '\n'; 
 
+
+    return 0; 
+
 }
